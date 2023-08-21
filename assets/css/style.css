@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  text-align: center;
+
+  justify-content: space-around;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  padding: 0.5rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header h2 {
+  font-size: 2rem;
+  font-style: oblique;
+}
+
+.site-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a:hover {
+}
