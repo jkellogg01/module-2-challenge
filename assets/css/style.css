@@ -1,3 +1,12 @@
+:root {
+  --background-700: #2d0320;
+  --background-400: #392b58;
+  --background-300: #645e9d;
+  --accent-400: #6c969d;
+  --accent-300: #99d5c9;
+  --white: #fff;
+}
+
 header {
   display: flex;
   font-family: "Space Mono", monospace;
