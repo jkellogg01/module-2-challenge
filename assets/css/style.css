@@ -7,6 +7,10 @@
   --white: #fff;
 }
 
+body {
+  background-color: var(--background-700);
+}
+
 header {
   display: flex;
   font-family: "Space Mono", monospace;
@@ -18,7 +22,10 @@ header {
 
   position: sticky;
   top: 0;
-  padding: 0.5rem;
+  padding: 2rem 0rem;
+
+  background-color: var(--background-400);
+  color: var(--white);
 }
 
 header h1 {
@@ -35,4 +42,16 @@ header h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent-300);
+
+  padding: 1rem;
+  margin: 1rem;
+}
+
+nav a:hover {
+  background-color: var(--background-300);
 }
