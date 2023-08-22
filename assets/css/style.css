@@ -10,6 +10,7 @@
 body {
   background-color: var(--background-700);
   font-family: "Roboto Slab", serif;
+  color: var(--white);
 }
 
 header {
@@ -27,15 +28,20 @@ header {
 
   background-color: var(--background-400);
   color: var(--white);
+  border-bottom: 5px solid var(--accent-400);
 }
 
-header h1 {
+h1 {
   font-size: 3rem;
 }
 
-header h2 {
+h2 {
   font-size: 2rem;
   font-style: oblique;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 .site-title {
@@ -55,6 +61,13 @@ nav a {
 
 nav a:hover {
   background-color: var(--background-300);
+}
+
+#bio {
+  background-color: var(--background-400);
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 1.5rem;
 }
 
 #work-examples {
@@ -88,5 +101,5 @@ nav a:hover {
   width: 100%;
   text-align: center;
   background-color: var(--background-300);
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
