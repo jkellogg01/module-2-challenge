@@ -9,6 +9,7 @@
 
 body {
   background-color: var(--background-700);
+  font-family: "Roboto Slab", serif;
 }
 
 header {
@@ -54,4 +55,38 @@ nav a {
 
 nav a:hover {
   background-color: var(--background-300);
+}
+
+#work-examples {
+  display: grid;
+  /* grid-template-columns: repeat(1fr, 4); */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1rem;
+  gap: 1rem;
+  min-height: 50vh;
+}
+
+#work-example-featured {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.work-example {
+  background-color: var(--background-400);
+  height: 100%;
+  position: relative;
+}
+
+.work-example a {
+  text-decoration: none;
+  color: var(--accent-300);
+}
+
+.work-example h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--background-300);
+  padding: 2rem 0;
 }
