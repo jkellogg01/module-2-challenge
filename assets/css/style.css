@@ -7,6 +7,10 @@
   --white: #fff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--background-700);
   font-family: "Roboto Slab", serif;
@@ -125,7 +129,16 @@ nav a:hover {
   width: 100%;
   text-align: center;
   background-color: var(--background-300);
-  padding: 1.5rem 0;
+  padding: 1.5rem;
+}
+
+footer {
+  width: 100%;
+  min-height: 10vh;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--background-400);
+  border-top: 5px solid var(--accent-400);
 }
 
 @media (width >= 768px) {
