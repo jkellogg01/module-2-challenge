@@ -25,6 +25,7 @@ header {
 
   justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 
   position: sticky;
   top: 0;
@@ -33,6 +34,7 @@ header {
   background-color: var(--background-400);
   color: var(--white);
   border-bottom: 5px solid var(--accent-400);
+  z-index: 99999;
 }
 
 h1 {
@@ -61,7 +63,7 @@ h4 {
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -88,12 +90,21 @@ nav a:hover {
   line-height: 1.5rem;
 }
 
+#bio div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
 #work-examples {
   display: grid;
   grid-template-columns: 1fr;
   margin: 1rem;
   gap: 1rem;
-  /* min-height: 50vh; */
+  min-height: 50vh;
 }
 
 .work-example {
@@ -126,7 +137,8 @@ nav a:hover {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
   }
-  nav {
+
+  header {
     flex-direction: row;
   }
 
