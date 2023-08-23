@@ -6,7 +6,7 @@ The challenge project for Module 2 of the DU Full Stack Flex Bootcamp was to cre
 
 ## Description
 
-![A screenshot of the landing page](./assets/images/challengeTwoScreenshot)
+![A screenshot of the landing page](./assets/images/challengeTwoScreenshot.png)
 This project includes:
 - a sticky header with functional navigation links including one that links directly to my email
 - an About Me section with an image that scales to keep the section from feeling "naked" on any display size (whether or not I accomplished this is, perhaps, up for debate)
