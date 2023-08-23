@@ -1,6 +1,4 @@
-# Challenge: Module 2
-
-## Portfolio Project
+# Challenge: Portfolio Project
 
 The challenge project for Module 2 of the DU Full Stack Flex Bootcamp was to create a portfolio site.
 
@@ -12,6 +10,10 @@ This project includes:
 - an About Me section with an image that scales to keep the section from feeling "naked" on any display size (whether or not I accomplished this is, perhaps, up for debate)
 - a spotlight section to highlight my past projects
 - a footer showing that I created the project
+
+## Usage
+
+The deployed site can be found [here](https://jkellogg01.github.io/module-2-challenge/)
 
 ## Credit
 
